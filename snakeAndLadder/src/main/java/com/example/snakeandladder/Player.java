@@ -17,6 +17,7 @@ public class Player {
     private Circle coin;
 
     public void setStart(){
+        position = 0;
         coin.setTranslateX(20);
         coin.setTranslateY(snakeAndLadder.tileSize*snakeAndLadder.height+25);
     }
